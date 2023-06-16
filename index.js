@@ -259,7 +259,8 @@ function displayMenu() {
   console.log('11. Equation');
   console.log('12. Double distributivité');
   console.log('13. Identité remarquable');
-  console.log('14. Fonction')
+  console.log('14. Fonction');
+  console.log('15. DFP');
   console.log('0. Quitter');
 
   rl.question('Choisissez une option : ', (choice) => {
@@ -305,6 +306,9 @@ function displayMenu() {
         break;
       case '14':
         functionMath();
+        break;
+      case '15':
+        Dfp();
         break;
       case '0':
         rl.close();
